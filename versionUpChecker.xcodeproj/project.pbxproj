@@ -15,6 +15,8 @@
 		A44337DA1C017B89006E628E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44337D81C017B89006E628E /* LaunchScreen.storyboard */; };
 		A44337E51C017B89006E628E /* versionUpCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A44337E41C017B89006E628E /* versionUpCheckerTests.m */; };
 		A44337F01C017B89006E628E /* versionUpCheckerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A44337EF1C017B89006E628E /* versionUpCheckerUITests.m */; };
+		A44337FF1C017BAB006E628E /* QMVersionUpChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = A44337FE1C017BAB006E628E /* QMVersionUpChecker.m */; };
+		A44338011C017BE1006E628E /* QMVersionUpCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A44338001C017BE1006E628E /* QMVersionUpCheckerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		A44337EB1C017B89006E628E /* versionUpCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = versionUpCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44337EF1C017B89006E628E /* versionUpCheckerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = versionUpCheckerUITests.m; sourceTree = "<group>"; };
 		A44337F11C017B89006E628E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44337FD1C017BAB006E628E /* QMVersionUpChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMVersionUpChecker.h; sourceTree = "<group>"; };
+		A44337FE1C017BAB006E628E /* QMVersionUpChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMVersionUpChecker.m; sourceTree = "<group>"; };
+		A44338001C017BE1006E628E /* QMVersionUpCheckerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMVersionUpCheckerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,8 @@
 		A44337C91C017B89006E628E /* versionUpChecker */ = {
 			isa = PBXGroup;
 			children = (
+				A44337FD1C017BAB006E628E /* QMVersionUpChecker.h */,
+				A44337FE1C017BAB006E628E /* QMVersionUpChecker.m */,
 				A44337CD1C017B89006E628E /* AppDelegate.h */,
 				A44337CE1C017B89006E628E /* AppDelegate.m */,
 				A44337D01C017B89006E628E /* ViewController.h */,
@@ -127,6 +134,7 @@
 			children = (
 				A44337E41C017B89006E628E /* versionUpCheckerTests.m */,
 				A44337E61C017B89006E628E /* Info.plist */,
+				A44338001C017BE1006E628E /* QMVersionUpCheckerTests.m */,
 			);
 			path = versionUpCheckerTests;
 			sourceTree = "<group>";
@@ -271,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A44337D21C017B89006E628E /* ViewController.m in Sources */,
+				A44337FF1C017BAB006E628E /* QMVersionUpChecker.m in Sources */,
 				A44337CF1C017B89006E628E /* AppDelegate.m in Sources */,
 				A44337CC1C017B89006E628E /* main.m in Sources */,
 			);
@@ -281,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A44337E51C017B89006E628E /* versionUpCheckerTests.m in Sources */,
+				A44338011C017BE1006E628E /* QMVersionUpCheckerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

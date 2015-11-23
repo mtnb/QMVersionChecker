@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QMVersionUpChecker.h"
 
 @interface ViewController : UIViewController
 

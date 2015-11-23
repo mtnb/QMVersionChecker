@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
 
 @end
@@ -17,6 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    QMVersionUpChecker *checker = [[QMVersionUpChecker alloc]init];
+    
+    @try {
+        [checker isNeedUpdate:@"1.0" :@"1.0"];
+    }
+    @catch (NSException *exception) {
+        NSLog(@"%@", exception);
+    }
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
